@@ -229,7 +229,7 @@ body {
   width: calc(var(--px, 1px) * 22);
   position: relative;
   height: calc(var(--px, 1px) * 22);
-  background-image: url('star.png');
+  background-image: url('./star.png');
   background-size: cover;
 }
 .rating-stars {
