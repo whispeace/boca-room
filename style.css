@@ -74,12 +74,18 @@ body {
   display: grid;
   place-content: center;
   border: calc(var(--px, 1px) * 1) solid #272727;
+  border-left-width: 0;
   margin-left: calc(var(--px, 1px) * -1);
+}
+
+.table-row + .table-row * {
+  border-top-width: 0;
 }
 
 .table-row *:first-child {
   color: #616161;
   border-right: calc(var(--px, 1px) * 1) solid #272727;
+  border-left: calc(var(--px, 1px) * 1) solid #272727;
   margin-left: 0;
 }
 
