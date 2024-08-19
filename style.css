@@ -183,7 +183,7 @@ body {
 .card {
   width: calc(var(--px, 1px) * 850);
   /* background-color: #2f71dc; */
-  height: calc(var(--px, 1px) * 1624);
+  height: calc(var(--px, 1px) * 1650);
   display: flex;
   flex-direction: column;
   align-items: stretch;
