@@ -246,10 +246,13 @@ body {
 }
 
 .card-small-name {
+  height: calc(var(--px, 1px) * 84px);
   text-align: left;
   text-transform: uppercase;
   font-size: calc(var(--px, 1px) * 30);
   line-height: calc(var(--px, 1px) * 38);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .list {
