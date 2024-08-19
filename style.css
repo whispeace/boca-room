@@ -246,7 +246,7 @@ body {
 }
 
 .card-small-name {
-  height: calc(var(--px, 1px) * 84px);
+  height: calc(var(--px, 1px) * 84);
   text-align: left;
   text-transform: uppercase;
   font-size: calc(var(--px, 1px) * 30);
