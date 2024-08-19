@@ -294,7 +294,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: calc(var(--px, 1px) * 26);
-  padding-bottom: calc(var(--px, 1px) * 10);
+  /* padding-bottom: calc(var(--px, 1px) * 10); */
 }
 .review-author {
   align-self: stretch;
@@ -317,7 +317,7 @@ body {
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start;12
   justify-content: flex-start;
   gap: calc(var(--px, 1px) * 12);
 }
@@ -342,7 +342,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: calc(var(--px, 1px) * 108);
+  gap: calc(var(--px, 1px) * 40);
   text-align: left;
   color: #4e4e4e;
 }
