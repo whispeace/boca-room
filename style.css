@@ -62,7 +62,7 @@ body {
 
 .table-row {
   /* border: 1px solid #272727; */
-  height: calc(var(--px, 1px) * 136);
+  height: calc(var(--px, 1px) * 130);
   display: grid;
   grid-template-columns: calc(var(--px, 1px) * 190) 1fr;
   align-items: stretch;
